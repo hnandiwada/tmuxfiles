@@ -73,7 +73,10 @@ You can highlight things. You can copy things to a clipboard, for pasting later
 - `v` -- start highlighting character-by-character (you can continue to highlight by moving around)
 - `V` -- start highlighting line-by-line (you can continue to highlight by moving around)
 - `y` -- copy whatever is highlighted to the clipboard (so you can paste later
-         in normal mode). This also puts you immediately back into normal mode.
+         in normal mode).
+- `Y` -- put your selection into the terminal. This also puts you immediately back into normal mode.
+- `C-spc S` -- put your selection into Google.
+- `C-o` -- open your selection in the editor.
 
 ### Stopping
 - `ESC` stop highlighting or searching
